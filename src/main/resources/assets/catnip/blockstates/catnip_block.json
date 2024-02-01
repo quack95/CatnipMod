@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "catnip:block/catnip_block"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item.catnip.edible_catnip": "Catnip",
+  "item.catnip.raw_catnip": "Raw Catnip",
+  "item.catnip.cooked_catnip": "Cooked Catnip",
+  "item.catnip.suspicious_catnip": "Suspicious Catnip",
+  "item.catnip.catnip_detector": "Catnip Detector",
+
+  "itemgroup.catnip": "Suspicious Cat Mod",
+
+  "block.catnip.catnip_ore": "Catnip Ore",
+  "block.catnip.catnip_block": "Catnip Block",
+  "block.catnip.deepslate_catnip_ore": "Deepslate Catnip Ore",
+  "block.catnip.meow_block": "Meow Block"
+}

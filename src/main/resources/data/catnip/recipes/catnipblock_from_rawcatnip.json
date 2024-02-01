@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "catnip:raw_catnip"
+    }
+  },
+  "result": {
+    "item": "catnip:catnip_block"
+  }
+}
