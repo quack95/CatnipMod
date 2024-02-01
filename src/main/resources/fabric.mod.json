@@ -11,7 +11,7 @@
 		"homepage": "https://discord.gg/VhgAMsNGrU",
 		"sources": "[IN DISCORD] https://discord.com/channels/1201930764447383612/1201938149723340800"
 	},
-	"license": "CC0-1.0",
+	"license": "GNU-AGPLv3",
 	"icon": "assets/catnip/icon.png",
 	"environment": "*",
 	"entrypoints": {
