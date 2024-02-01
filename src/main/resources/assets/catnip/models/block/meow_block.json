@@ -1,3 +1,6 @@
 {
-  "parent": "catnip:block/meow_block"
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "catnip:block/meow_block"
+  }
 }

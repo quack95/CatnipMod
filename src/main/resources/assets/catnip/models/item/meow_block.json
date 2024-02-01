@@ -1,6 +1,3 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "catnip:item/meow_block"
-  }
+  "parent": "catnip:block/meow_block"
 }
