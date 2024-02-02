@@ -14,12 +14,13 @@ import net.quack95.Catnip;
 
 import net.minecraft.registry.Registry;
 import net.quack95.item.custom.CatnipDetectorItem;
+import net.quack95.item.custom.ModFoods;
 
 public class ModItems {
-    public static final Item EDIBLE_CATNIP = registerItem("edible_catnip", new Item(new FabricItemSettings()));
+    public static final Item EDIBLE_CATNIP = registerItem("edible_catnip", new Item(new FabricItemSettings().food(ModFoods.EDIBLE_CATNIP)));
     public static final Item COOKED_CATNIP = registerItem("cooked_catnip", new Item(new FabricItemSettings()));
     public static final Item RAW_CATNIP = registerItem("raw_catnip", new Item(new FabricItemSettings()));
-    public static final Item SUSPICIOUS_CATNIP = registerItem("suspicious_catnip", new Item(new FabricItemSettings()));
+    public static final Item SUSPICIOUS_CATNIP = registerItem("suspicious_catnip", new Item(new FabricItemSettings().food(ModFoods.SUSPICIOUS_CATNIP)));
 
     public static final Item CATNIP_DETECTOR = registerItem("catnip_detector",
             new CatnipDetectorItem(new FabricItemSettings().maxDamage(50)));
