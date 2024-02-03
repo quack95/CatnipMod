@@ -11,5 +11,8 @@
   "block.catnip.catnip_ore": "Catnip Ore",
   "block.catnip.catnip_block": "Catnip Block",
   "block.catnip.deepslate_catnip_ore": "Deepslate Catnip Ore",
-  "block.catnip.meow_block": "Meow Block"
+  "block.catnip.meow_block": "Meow Block",
+
+  "tooltip.catnip.catnip_detector.tooltip": "Detects catnip under the block where it is used",
+  "tooltip.catnip.meow_block.tooltip": "Plays a meow sound when clicked."
 }
