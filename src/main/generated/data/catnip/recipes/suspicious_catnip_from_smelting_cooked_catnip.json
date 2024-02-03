@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.6,
+  "group": "catnip",
+  "ingredient": {
+    "item": "catnip:cooked_catnip"
+  },
+  "result": "catnip:suspicious_catnip"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:bowl"
+    },
+    "C": {
+      "item": "catnip:cooked_catnip"
+    }
+  },
+  "pattern": [
+    "   ",
+    " C ",
+    " # "
+  ],
+  "result": {
+    "item": "catnip:edible_catnip"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_catnip_ember": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "catnip:catnip_ember"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:catnip_detector"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_ingot",
+      "has_catnip_ember"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:catnip_detector"
+    ]
+  },
+  "sends_telemetry_event": false
+}

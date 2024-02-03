@@ -1,0 +1,19 @@
+// 1.20.2	2024-02-03T14:20:14.579252	Catnip/Model Definitions
+7bfe0d65d86d33bfca832cd90f96aa0d5faa0044 assets\catnip\models\item\cooked_catnip.json
+0884730cc33a1b10ad2c515dad1343af48f11c39 assets\catnip\models\item\catnip_ember.json
+68da412e61b52dde587980971489fb1bae4a994e assets\catnip\blockstates\deepslate_catnip_ore.json
+1e28fc52fdd09fc03981550fea6eeffdccc5fe93 assets\catnip\models\item\meow_block.json
+0ba41327dbfa21748883c23a5933084f31c6556c assets\catnip\blockstates\meow_block.json
+814f2e0b78c0703f483fa7cc3a38b36c96e932f9 assets\catnip\blockstates\catnip_ore.json
+fab0b907981722b2d1de39d5dcecde4bfafea1f2 assets\catnip\models\block\deepslate_catnip_ore.json
+14babaf739f3c0364f2b3bba11cf4497f9728916 assets\catnip\models\block\meow_block.json
+658292e5dcd41aff72cdf2d06c2b518da6bc8306 assets\catnip\models\item\catnip_ore.json
+d7425ccb10a16950c6017aa54beace8da2ec4c80 assets\catnip\models\item\raw_catnip.json
+4310a2c5ca7f050d8f4cd1ec1c6389165d046a8c assets\catnip\models\item\deepslate_catnip_ore.json
+c076144703919a43ec796fafdfa8b1ca05bc3b5c assets\catnip\models\item\catnip_block.json
+3aa1f5325b4c3c46e4b58718ec391b413c10271c assets\catnip\models\item\catnip_detector.json
+34fda8eff1474b56cbebc76f5677d68e5d5b8a90 assets\catnip\blockstates\catnip_block.json
+c0b767367ebd23efd45ac8039276819447849a6c assets\catnip\models\block\catnip_ore.json
+7efcfd76c3cad13430c02cfb311da6c92f370b2b assets\catnip\models\item\edible_catnip.json
+9939810a1ade80ad2fb2755110ad9063db4b84e6 assets\catnip\models\item\suspicious_catnip.json
+e701aa9a92e8f998db557e2a4fa721b3d8072da8 assets\catnip\models\block\catnip_block.json
