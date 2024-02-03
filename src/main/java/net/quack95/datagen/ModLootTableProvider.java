@@ -27,6 +27,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.CATNIP_ORE, catnipLikeOreDrops(ModBlocks.CATNIP_ORE, ModItems.RAW_CATNIP));
         addDrop(ModBlocks.DEEPSLATE_CATNIP_ORE, catnipLikeOreDrops(ModBlocks.DEEPSLATE_CATNIP_ORE, ModItems.RAW_CATNIP));
+
+        addDrop(ModBlocks.SCRATCHING_BLOCK);
+        addDrop(ModBlocks.SCRATCHING_FENCE);
+        addDrop(ModBlocks.SCRATCHING_BUTTON);
+        addDrop(ModBlocks.SCRATCHING_FENCE_GATE);
+        addDrop(ModBlocks.SCRATCHING_PRESSURE_PLATE);
+        addDrop(ModBlocks.SCRATCHING_STAIRS);
+        addDrop(ModBlocks.SCRATCHING_TRAPDOOR);
+        addDrop(ModBlocks.SCRATCHING_WALL);
+
+        addDrop(ModBlocks.SCRATCHING_DOOR, doorDrops(ModBlocks.SCRATCHING_DOOR));
+        addDrop(ModBlocks.SCRATCHING_SLAB, slabDrops(ModBlocks.SCRATCHING_SLAB));
     }
 
     public LootTable.Builder catnipLikeOreDrops(Block drop, Item item) {

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "catnip:block/scratching_door_bottom",
+    "top": "catnip:block/scratching_door_top"
+  }
+}

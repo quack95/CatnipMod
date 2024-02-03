@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "catnip:block/scratching_slab"
+    },
+    "type=double": {
+      "model": "catnip:block/scratching_block"
+    },
+    "type=top": {
+      "model": "catnip:block/scratching_slab_top"
+    }
+  }
+}

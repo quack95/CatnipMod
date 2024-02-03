@@ -19,6 +19,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CATNIP_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CATNIP_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MEOW_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool scratchingPool =
+                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SCRATCHING_BLOCK);
+
+        scratchingPool.stairs(ModBlocks.SCRATCHING_STAIRS);
+        scratchingPool.slab(ModBlocks.SCRATCHING_SLAB);
+        scratchingPool.button(ModBlocks.SCRATCHING_BUTTON);
+        scratchingPool.pressurePlate(ModBlocks.SCRATCHING_PRESSURE_PLATE);
+        scratchingPool.fence(ModBlocks.SCRATCHING_FENCE);
+        scratchingPool.fenceGate(ModBlocks.SCRATCHING_FENCE_GATE);
+        scratchingPool.wall(ModBlocks.SCRATCHING_WALL);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.SCRATCHING_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.SCRATCHING_TRAPDOOR);
     }
 
     @Override

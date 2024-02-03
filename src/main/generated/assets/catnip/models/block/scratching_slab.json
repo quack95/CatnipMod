@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "catnip:block/scratching_block",
+    "side": "catnip:block/scratching_block",
+    "top": "catnip:block/scratching_block"
+  }
+}

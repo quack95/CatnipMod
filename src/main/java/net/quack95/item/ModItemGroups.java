@@ -31,6 +31,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CATNIP_ORE);
                         entries.add(ModBlocks.DEEPSLATE_CATNIP_ORE);
                         entries.add(ModBlocks.MEOW_BLOCK);
+                        entries.add(ModBlocks.SCRATCHING_TRAPDOOR);
+                        entries.add(ModBlocks.SCRATCHING_BUTTON);
+                        entries.add(ModBlocks.SCRATCHING_DOOR);
+                        entries.add(ModBlocks.SCRATCHING_FENCE);
+                        entries.add(ModBlocks.SCRATCHING_SLAB);
+                        entries.add(ModBlocks.SCRATCHING_FENCE_GATE);
+                        entries.add(ModBlocks.SCRATCHING_STAIRS);
+                        entries.add(ModBlocks.SCRATCHING_PRESSURE_PLATE);
+                        entries.add(ModBlocks.SCRATCHING_WALL);
+                        entries.add(ModBlocks.SCRATCHING_BLOCK);
+
                     })
                     .build());
 
