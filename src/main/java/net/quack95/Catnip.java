@@ -2,6 +2,7 @@ package net.quack95;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.quack95.block.ModBlocks;
 import net.quack95.item.ModItemGroups;
 import net.quack95.item.ModItems;
@@ -20,5 +21,7 @@ public class Catnip implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.CATNIP_EMBER, 200);
 	}
 }

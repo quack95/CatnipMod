@@ -18,11 +18,13 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.catnip"))
                     .icon(() -> new ItemStack(ModItems.EDIBLE_CATNIP))
                     .entries((displayContext, entries) -> {
+                        //items
                         entries.add(ModItems.COOKED_CATNIP);
                         entries.add(ModItems.RAW_CATNIP);
                         entries.add(ModItems.SUSPICIOUS_CATNIP);
                         entries.add(ModItems.EDIBLE_CATNIP);
                         entries.add(ModItems.CATNIP_DETECTOR);
+                        entries.add(ModItems.CATNIP_EMBER);
 
                         // blocks
                         entries.add(ModBlocks.CATNIP_BLOCK);

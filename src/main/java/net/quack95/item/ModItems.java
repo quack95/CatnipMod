@@ -21,6 +21,7 @@ public class ModItems {
     public static final Item COOKED_CATNIP = registerItem("cooked_catnip", new Item(new FabricItemSettings()));
     public static final Item RAW_CATNIP = registerItem("raw_catnip", new Item(new FabricItemSettings()));
     public static final Item SUSPICIOUS_CATNIP = registerItem("suspicious_catnip", new Item(new FabricItemSettings().food(ModFoods.SUSPICIOUS_CATNIP)));
+    public static final Item CATNIP_EMBER = registerItem("catnip_ember", new Item(new FabricItemSettings()));
 
     public static final Item CATNIP_DETECTOR = registerItem("catnip_detector",
             new CatnipDetectorItem(new FabricItemSettings().maxDamage(50)));
