@@ -1,4 +1,4 @@
-// 1.20.2	2024-02-03T17:48:47.9674589	Catnip/Model Definitions
+// 1.20.2	2024-02-04T14:13:31.2548273	Catnip/Model Definitions
 6aa70ebdfbdb2c4a65458d32198f03029f0607d7 assets\catnip\models\item\scratching_slab.json
 db6b51e8f604c95156722d214cf843bb8bb595ef assets\catnip\models\block\scratching_button.json
 68da412e61b52dde587980971489fb1bae4a994e assets\catnip\blockstates\deepslate_catnip_ore.json
@@ -37,8 +37,8 @@ a9f2526e5beccff2db7f29ae7efcbb80c2ff900a assets\catnip\models\block\scratching_w
 ddba5d028fde6b14a4d908b3da4506428fcf5049 assets\catnip\models\block\scratching_pressure_plate_down.json
 bc032be020a71152d1a42fb2424fe0ad17a1eac5 assets\catnip\models\block\scratching_block.json
 31386995d057b7217610d94afb4d87c6fa6f6407 assets\catnip\models\block\scratching_trapdoor_top.json
-9d9766cf4f48932d65ad8f25c9697033a71abd4e assets\catnip\models\block\scratching_door_bottom_right.json
 7bfe0d65d86d33bfca832cd90f96aa0d5faa0044 assets\catnip\models\item\cooked_catnip.json
+9d9766cf4f48932d65ad8f25c9697033a71abd4e assets\catnip\models\block\scratching_door_bottom_right.json
 0ba41327dbfa21748883c23a5933084f31c6556c assets\catnip\blockstates\meow_block.json
 814f2e0b78c0703f483fa7cc3a38b36c96e932f9 assets\catnip\blockstates\catnip_ore.json
 deeb2f9bcfef635d077c2926f206e70640a9390e assets\catnip\blockstates\scratching_trapdoor.json

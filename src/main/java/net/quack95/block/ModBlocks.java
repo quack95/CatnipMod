@@ -7,6 +7,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.quack95.Catnip;
@@ -26,7 +27,8 @@ public class ModBlocks {
             new MeowBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
 
     public static final Block SCRATCHING_BLOCK = registerBlock("scratching_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.BAMBOO_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.BAMBOO)));
+
 
     // stairs, slabs, fences, buttons, stuff, stuff and more
     public static final Block SCRATCHING_STAIRS = registerBlock("scratching_stairs",

@@ -19,8 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CATNIP_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CATNIP_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MEOW_BLOCK);
-        BlockStateModelGenerator.BlockTexturePool scratchingPool =
-                blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SCRATCHING_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool scratchingPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SCRATCHING_BLOCK);
 
         scratchingPool.stairs(ModBlocks.SCRATCHING_STAIRS);
         scratchingPool.slab(ModBlocks.SCRATCHING_SLAB);

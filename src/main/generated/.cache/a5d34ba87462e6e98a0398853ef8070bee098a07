@@ -1,10 +1,10 @@
-// 1.20.2	2024-02-03T17:48:47.9734591	Catnip/Block Loot Tables
+// 1.20.2	2024-02-04T14:13:31.2608272	Catnip/Block Loot Tables
 79b9154e80cef2a853252bc4589c8012f460651c data\catnip\loot_tables\blocks\scratching_door.json
 3a77a9266b4c4a5987b178fdcecdf9e02ca39351 data\catnip\loot_tables\blocks\scratching_button.json
 4fd3f98a831cc695c87d20920956f4a7e1e59bd0 data\catnip\loot_tables\blocks\scratching_stairs.json
 0df9fa3b9c5b306a113786c569a359ec1d8802eb data\catnip\loot_tables\blocks\deepslate_catnip_ore.json
-56aca6afd43e2d6d60487f28b864d3043420ce35 data\catnip\loot_tables\blocks\scratching_fence_gate.json
 a2d8dbf91b8f3987ee35429a1ec324eddf5bc6c7 data\catnip\loot_tables\blocks\scratching_block.json
+56aca6afd43e2d6d60487f28b864d3043420ce35 data\catnip\loot_tables\blocks\scratching_fence_gate.json
 892d4a2941d66d7df7a5e488f45a0328f2a9739a data\catnip\loot_tables\blocks\scratching_slab.json
 a4400204ed1f16e455e97c57e696776c63907ba0 data\catnip\loot_tables\blocks\catnip_ore.json
 71a7c9d838f05cf4e9111e454048c55a01dc73cb data\catnip\loot_tables\blocks\scratching_wall.json
