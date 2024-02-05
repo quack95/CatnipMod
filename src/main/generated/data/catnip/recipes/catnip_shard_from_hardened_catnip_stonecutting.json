@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "catnip:hardened_catnip"
+  },
+  "result": "catnip:catnip_shard"
+}

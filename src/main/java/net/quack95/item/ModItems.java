@@ -5,9 +5,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import net.quack95.Catnip;
@@ -22,7 +20,21 @@ public class ModItems {
     public static final Item RAW_CATNIP = registerItem("raw_catnip", new Item(new FabricItemSettings()));
     public static final Item SUSPICIOUS_CATNIP = registerItem("suspicious_catnip", new Item(new FabricItemSettings().food(ModFoods.SUSPICIOUS_CATNIP)));
     public static final Item CATNIP_EMBER = registerItem("catnip_ember", new Item(new FabricItemSettings()));
+    public static final Item HARDENED_CATNIP = registerItem("hardened_catnip", new Item(new FabricItemSettings()));
+    public static final Item CATNIP_SHARD = registerItem("catnip_shard", new Item(new FabricItemSettings()));
 
+    // tools & stuff
+    public static final Item CATNIP_PICKAXE = registerItem("catnip_pickaxe",
+            new PickaxeItem(ModToolMaterial.CATNIP_SHARD, 2, 2f, new FabricItemSettings()));
+    public static final Item CATNIP_AXE = registerItem("catnip_axe",
+            new AxeItem(ModToolMaterial.CATNIP_SHARD, 2, 6f, new FabricItemSettings()));
+    public static final Item CATNIP_SHOVEL = registerItem("catnip_shovel",
+            new ShovelItem(ModToolMaterial.CATNIP_SHARD, 1, 2f, new FabricItemSettings()));
+    public static final Item CATNIP_SWORD = registerItem("catnip_sword",
+            new SwordItem(ModToolMaterial.CATNIP_SHARD, 8, 4f, new FabricItemSettings()));
+    public static final Item CATNIP_HOE = registerItem("catnip_hoe",
+            new HoeItem(ModToolMaterial.CATNIP_SHARD, 3, 3f, new FabricItemSettings()));
+    //
     public static final Item CATNIP_DETECTOR = registerItem("catnip_detector",
             new CatnipDetectorItem(new FabricItemSettings().maxDamage(50)));
 

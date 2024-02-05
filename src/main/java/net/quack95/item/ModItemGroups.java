@@ -25,6 +25,14 @@ public class ModItemGroups {
                         entries.add(ModItems.EDIBLE_CATNIP);
                         entries.add(ModItems.CATNIP_DETECTOR);
                         entries.add(ModItems.CATNIP_EMBER);
+                        entries.add(ModItems.HARDENED_CATNIP);
+                        entries.add(ModItems.CATNIP_SHARD);
+
+                        entries.add(ModItems.CATNIP_SWORD);
+                        entries.add(ModItems.CATNIP_AXE);
+                        entries.add(ModItems.CATNIP_SHOVEL);
+                        entries.add(ModItems.CATNIP_HOE);
+                        entries.add(ModItems.CATNIP_PICKAXE);
 
                         // blocks
                         entries.add(ModBlocks.CATNIP_BLOCK);

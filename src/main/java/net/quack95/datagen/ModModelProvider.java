@@ -41,5 +41,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CATNIP_EMBER, Models.GENERATED);
         itemModelGenerator.register(ModItems.EDIBLE_CATNIP, Models.GENERATED);
         itemModelGenerator.register(ModItems.SUSPICIOUS_CATNIP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HARDENED_CATNIP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CATNIP_SHARD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CATNIP_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CATNIP_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CATNIP_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CATNIP_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CATNIP_HOE, Models.HANDHELD);
     }
 }
