@@ -1,0 +1,10 @@
+// 1.20.2	2024-02-05T14:25:31.3990869	Catnip/Tags for minecraft:block
+c6fb5b2e6f3f7fe29eb1244aceba9ca7765f97c3 data\minecraft\tags\blocks\walls.json
+d83f663e0c3a0d941b6dfb19b3208209ae3c4fe9 data\minecraft\tags\blocks\mineable\pickaxe.json
+d4ad3f7feaabb6312cebadd0ccd08e96b6943b17 data\catnip\tags\blocks\catnip_detector_detectable.json
+1445bdaa90586728452cac7508a08cc26207ebf5 data\minecraft\tags\blocks\needs_iron_tool.json
+1a19251cdea2f697d79996fa430cdd0492bda7da data\minecraft\tags\blocks\fences.json
+209016ebe3a218a8c13c99bc063861383c4ceb8c data\minecraft\tags\blocks\mineable\hoe.json
+ea23fd4c56c23d3fa36912cf98b8c271d847d4ec data\minecraft\tags\blocks\mineable\axe.json
+0577c627bf0bd6374d642bab9cfbe9faeac5dd02 data\minecraft\tags\blocks\fence_gates.json
+aa52816636ba8aa837a36e73f60c80025281a51f data\minecraft\tags\blocks\needs_stone_tool.json

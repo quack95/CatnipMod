@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "catnip:catnip_ember"
+    }
+  },
+  "pattern": [
+    " B ",
+    " B ",
+    "BCB"
+  ],
+  "result": {
+    "item": "catnip:catnip_detector"
+  },
+  "show_notification": true
+}

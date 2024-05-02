@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "catnip",
+	"version": "${version}",
+	"name": "Catnip",
+	"description": "Adds cat-related items into Minecraft.\nWarning: :3",
+	"authors": [
+		"quack95"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/VhgAMsNGrU",
+		"sources": "https://github.com/quack95/CatnipMod/"
+	},
+	"license": "GNU-AGPLv3",
+	"icon": "assets/catnip/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.quack95.Catnip"
+		],
+		"client": [
+			"net.quack95.CatnipClient"
+		],
+		"fabric-datagen": [
+			"net.quack95.CatnipDataGenerator"
+		]
+	},
+	"mixins": [
+		"catnip.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

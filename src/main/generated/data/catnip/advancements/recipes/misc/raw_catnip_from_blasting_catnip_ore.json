@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_catnip_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "catnip:catnip_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_catnip_from_blasting_catnip_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_catnip_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_catnip_from_blasting_catnip_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

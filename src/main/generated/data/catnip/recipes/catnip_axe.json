@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "catnip:catnip_shard"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "CC ",
+    "CS ",
+    " S "
+  ],
+  "result": {
+    "item": "catnip:catnip_axe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "catnip",
+  "ingredient": {
+    "item": "catnip:cooked_catnip"
+  },
+  "result": "catnip:catnip_ember"
+}

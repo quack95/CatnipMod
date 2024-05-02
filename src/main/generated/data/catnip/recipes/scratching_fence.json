@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "catnip:scratching_block"
+    },
+    "S": {
+      "item": "catnip:raw_catnip"
+    }
+  },
+  "pattern": [
+    "   ",
+    "BSB",
+    "BSB"
+  ],
+  "result": {
+    "item": "catnip:scratching_fence"
+  },
+  "show_notification": true
+}

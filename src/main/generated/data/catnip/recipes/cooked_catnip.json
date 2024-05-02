@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "catnip:catnip_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "catnip:cooked_catnip"
+  }
+}
